@@ -15,6 +15,7 @@ bool Solution::isPalindrome(ListNode* head) {
     ListNode* slow = head;
     stack<int> stack;
     while (fast->next != nullptr && fast->next->next != nullptr) {
+        //½«Ç°°ë¶ÎÈëÕ»
         stack.push(slow->val);
         fast = fast->next->next;
         slow = slow->next;
