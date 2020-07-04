@@ -8,7 +8,7 @@ void traverseLinkedList(ListNode* node) {
     cout << endl;
     while (node != nullptr) {
         if (node->next == nullptr) {
-            cout << node->val << endl;
+            cout << node->val ;
         } else {
             cout << node->val <<",";
         }
@@ -41,9 +41,9 @@ ListNode* createLinkedListR(vector<int> arr) {
 int main() {
     Solution solution;
     ListNode* head = nullptr;
-    vector<int> arr = {-21,10,17,8,4,26,5,35,33,-7,-16,27,-12,6,29,-12,5,9,20,14,14,2,13,-24,21,21,5 };
+    //vector<int> arr = {-21,10,17,8,4,8,17,10,-21 };
+    vector<int> arr = { 1,2,3,3,2,1 };
     head = createLinkedListR(arr);
-    cout<<"has cycle: "<<solution.hasCycle(head);
-    traverseLinkedList(head);
+    cout<<"is palindrome: "<<boolalpha<<solution.isPalindrome(head);
     return 0;
 }
