@@ -8,5 +8,5 @@ struct ListNode {
 
 class Solution {
 public:
-    bool hasCycle(ListNode* head);
+    bool isPalindrome(ListNode* head);
 };
