@@ -17,7 +17,7 @@ ListNode* Solution::deleteDuplicates(ListNode* head) {
         while (q != nullptr) {
             if (p->val == q->val) {
                 if (q->next != nullptr) {
-                    //当q指向最后一个节点时，无法用改方式删除
+                    //当q指向最后一个节点时，无法用该方式删除
                     *q = *(q->next);
                 } else {
                     //当q指向最后一个节点时，此时p所指节点恰好为q所指节点的前驱
