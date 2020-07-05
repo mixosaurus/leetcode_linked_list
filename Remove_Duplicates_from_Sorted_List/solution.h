@@ -8,5 +8,5 @@ struct ListNode {
 
 class Solution {
 public:
-    bool isPalindrome(ListNode* head);
+    ListNode* deleteDuplicates(ListNode* head);
 };
