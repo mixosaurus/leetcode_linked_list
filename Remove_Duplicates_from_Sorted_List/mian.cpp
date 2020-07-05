@@ -41,7 +41,7 @@ ListNode* createLinkedListR(vector<int> arr) {
 int main() {
     Solution solution;
     ListNode* head = nullptr;
-    vector<int> arr = {1,4,5,5,5,5,5,5};
+    vector<int> arr = {1,4,5,5,5,5,5};
     head = createLinkedListR(arr);
     traverseLinkedList(solution.deleteDuplicates(head));
     return 0;
