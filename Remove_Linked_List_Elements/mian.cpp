@@ -34,7 +34,6 @@ ListNode* createLinkedListR(vector<int> arr) {
             p->val = val;
             r->next = p;
             r = r->next;
-
         }
     }
     return head;
@@ -42,10 +41,8 @@ ListNode* createLinkedListR(vector<int> arr) {
 
 int main() {
     Solution solution;
-    vector<int> arr1 = {1,2,4};
-    vector<int> arr2 = {1,3,4};
+    vector<int> arr1 = {1,2,6,3,4,5,6};
     ListNode* l1 = createLinkedListR(arr1);
-    ListNode* l2 = createLinkedListR(arr2);
-    traverseLinkedList(solution.mergeTwoLists(l1, l2));
+    traverseLinkedList(solution.removeElements(l1, 1));
     return 0;
 }

@@ -9,5 +9,5 @@ struct ListNode {
 
 class Solution {
 public:
-    ListNode* Solution::removeElements(ListNode* head, int val);
+    ListNode* removeElements(ListNode* head, int val);
 };
