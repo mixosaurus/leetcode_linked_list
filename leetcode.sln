@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Remove_Linked_List_Elements
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Remove_Duplicates_from_Sorted_List", "Remove_Duplicates_from_Sorted_List\Remove_Duplicates_from_Sorted_List.vcxproj", "{EFDB95E8-C4E2-49B9-8928-5D35B8616BD8}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Linked_List_Cycle", "Linked_List_Cycle\Linked_List_Cycle.vcxproj", "{12D2947B-2B4E-437C-B82F-24E18FBF9E3E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{EFDB95E8-C4E2-49B9-8928-5D35B8616BD8}.Release|x64.Build.0 = Release|x64
 		{EFDB95E8-C4E2-49B9-8928-5D35B8616BD8}.Release|x86.ActiveCfg = Release|Win32
 		{EFDB95E8-C4E2-49B9-8928-5D35B8616BD8}.Release|x86.Build.0 = Release|Win32
+		{12D2947B-2B4E-437C-B82F-24E18FBF9E3E}.Debug|x64.ActiveCfg = Debug|x64
+		{12D2947B-2B4E-437C-B82F-24E18FBF9E3E}.Debug|x64.Build.0 = Debug|x64
+		{12D2947B-2B4E-437C-B82F-24E18FBF9E3E}.Debug|x86.ActiveCfg = Debug|Win32
+		{12D2947B-2B4E-437C-B82F-24E18FBF9E3E}.Debug|x86.Build.0 = Debug|Win32
+		{12D2947B-2B4E-437C-B82F-24E18FBF9E3E}.Release|x64.ActiveCfg = Release|x64
+		{12D2947B-2B4E-437C-B82F-24E18FBF9E3E}.Release|x64.Build.0 = Release|x64
+		{12D2947B-2B4E-437C-B82F-24E18FBF9E3E}.Release|x86.ActiveCfg = Release|Win32
+		{12D2947B-2B4E-437C-B82F-24E18FBF9E3E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
