@@ -12,7 +12,7 @@ ListNode* Solution::deleteDuplicates(ListNode* head) {
     ListNode* q = head;
     //该条件限制了单个节点的情况
     while (p->next != nullptr) {
-        //无需使p所指元素与其自身比较
+        //无需使p所指节点与其自身比较
         q = p->next;
         while (q != nullptr) {
             if (p->val == q->val) {

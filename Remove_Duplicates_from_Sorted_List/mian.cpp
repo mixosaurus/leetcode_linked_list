@@ -5,7 +5,6 @@
 using namespace std;
 
 void traverseLinkedList(ListNode* node) {
-    cout << endl;
     while (node != nullptr) {
         if (node->next == nullptr) {
             cout << node->val ;
