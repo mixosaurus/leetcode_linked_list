@@ -39,7 +39,6 @@ ListNode* createLinkedListR(vector<int> arr) {
 int main() {
     Solution solution;
     ListNode* head = nullptr;
-    //vector<int> arr = {-21,10,17,8,4,8,17,10,-21 };
     vector<int> arr = { 1,2,3,3,2,1 };
     head = createLinkedListR(arr);
     cout<<"is palindrome: "<<boolalpha<<solution.isPalindrome(head);
