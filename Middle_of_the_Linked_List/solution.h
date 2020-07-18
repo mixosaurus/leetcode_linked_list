@@ -7,8 +7,6 @@ struct ListNode {
 };
 
 class Solution {
-private:
-    int base = 0;
 public:
-    int getDecimalValue(ListNode* head);
+    ListNode* middleNode(ListNode* head);
 };
