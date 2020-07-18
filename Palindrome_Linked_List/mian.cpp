@@ -36,6 +36,7 @@ ListNode* createLinkedListR(vector<int> arr) {
     return head;
 }
 
+//234. ╩ьнда╢╠М
 int main() {
     Solution solution;
     ListNode* head = nullptr;
