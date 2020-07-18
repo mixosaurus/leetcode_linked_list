@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Palindrome_Linked_List", "P
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Convert_Binary_Number_in_a_Linked_List_to_Integer", "Convert_Binary_Number_in_a_Linked_List_to_Integer\Convert_Binary_Number_in_a_Linked_List_to_Integer.vcxproj", "{6B85663B-742A-4566-BD7A-BB6BDF46F35B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Middle_of_the_Linked_List", "Middle_of_the_Linked_List\Middle_of_the_Linked_List.vcxproj", "{B6E38D05-BBA8-4C45-A664-02F470D3BAD4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -71,6 +73,14 @@ Global
 		{6B85663B-742A-4566-BD7A-BB6BDF46F35B}.Release|x64.Build.0 = Release|x64
 		{6B85663B-742A-4566-BD7A-BB6BDF46F35B}.Release|x86.ActiveCfg = Release|Win32
 		{6B85663B-742A-4566-BD7A-BB6BDF46F35B}.Release|x86.Build.0 = Release|Win32
+		{B6E38D05-BBA8-4C45-A664-02F470D3BAD4}.Debug|x64.ActiveCfg = Debug|x64
+		{B6E38D05-BBA8-4C45-A664-02F470D3BAD4}.Debug|x64.Build.0 = Debug|x64
+		{B6E38D05-BBA8-4C45-A664-02F470D3BAD4}.Debug|x86.ActiveCfg = Debug|Win32
+		{B6E38D05-BBA8-4C45-A664-02F470D3BAD4}.Debug|x86.Build.0 = Debug|Win32
+		{B6E38D05-BBA8-4C45-A664-02F470D3BAD4}.Release|x64.ActiveCfg = Release|x64
+		{B6E38D05-BBA8-4C45-A664-02F470D3BAD4}.Release|x64.Build.0 = Release|x64
+		{B6E38D05-BBA8-4C45-A664-02F470D3BAD4}.Release|x86.ActiveCfg = Release|Win32
+		{B6E38D05-BBA8-4C45-A664-02F470D3BAD4}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

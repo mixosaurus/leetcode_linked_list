@@ -36,11 +36,10 @@ ListNode* createLinkedListR(vector<int> arr) {
     return head;
 }
 
-//1290. 二进制链表转整数
 int main() {
     Solution solution;
     ListNode* head = nullptr;
-    vector<int> arr = { 1,0,0,1,0,0,1,1,1,0,0,0,0,0,0 };
+    vector<int> arr = { 2,3,4};
     head = createLinkedListR(arr);
     cout << "value is " << solution.getDecimalValue(head)<<endl;
     return 0;
