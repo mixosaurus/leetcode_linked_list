@@ -5,6 +5,9 @@
 using namespace std;
 
 void traverseLinkedList(ListNode* node) {
+    if (node == nullptr) {
+        cout << "链表为空" << endl;
+    }
     while (node != nullptr) {
         if (node->next == nullptr) {
             cout << node->val ;
@@ -37,11 +40,12 @@ ListNode* createLinkedListR(vector<int> arr) {
 }
 
 //876. 链表的中间结点
+//测试样例实际上并无头结点
 int main() {
     Solution solution;
     ListNode* head = nullptr;
-    vector<int> arr = { 2,3,4};
+    vector<int> arr = { 1,2,3,4,5,6 };
     head = createLinkedListR(arr);
-    cout << "value is " << solution.getDecimalValue(head)<<endl;
+    traverseLinkedList(solution.middleNode(head));
     return 0;
 }
