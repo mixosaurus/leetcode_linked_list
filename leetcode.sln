@@ -21,8 +21,6 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Swap_Nodes_in_Pairs", "Swap
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Odd_Even_Linked_List", "Odd_Even_Linked_List\Odd_Even_Linked_List.vcxproj", "{67B2C19B-A3F3-4CC5-9AF4-1C791EFE61C5}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LinkedList", "LinkedList", "{C143076D-6F9C-4622-A103-A3C0577F8D1F}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -106,9 +104,6 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{67B2C19B-A3F3-4CC5-9AF4-1C791EFE61C5} = {C143076D-6F9C-4622-A103-A3C0577F8D1F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {581D910D-61EB-424F-9E45-DB20B847CA9A}

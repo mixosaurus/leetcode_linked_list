@@ -21,7 +21,7 @@ ListNode* Solution::oddEvenList(ListNode* head) {
 		even->next = odd->next;
 		even = even->next;
 	}
-	//由于一次循环执行两次划分操作，因此odd总是even前驱
+	//由于一次循环执行两次划分操作，因此odd总是even的前驱
 	odd->next = evenHead;
 	return head;
 }
