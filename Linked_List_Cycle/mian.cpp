@@ -44,6 +44,5 @@ int main() {
     vector<int> arr = {-21,10,17,8,4,26,5,35,33,-7,-16,27,-12,6,29,-12,5,9,20,14,14,2,13,-24,21,21,5 };
     head = createLinkedListR(arr);
     cout<<"has cycle: "<<solution.hasCycle(head);
-    //traverseLinkedList(head);
     return 0;
 }
