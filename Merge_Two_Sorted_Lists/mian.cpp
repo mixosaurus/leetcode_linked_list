@@ -41,6 +41,7 @@ ListNode* createLinkedListR(vector<int> arr) {
 }
 
 //21. 合并两个有序链表
+//仅指升序
 int main() {
     Solution solution;
     vector<int> arr1 = {1,2,4};
