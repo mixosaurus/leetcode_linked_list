@@ -27,11 +27,9 @@ ListNode* createLinkedListR(vector<int> arr) {
             head = new ListNode(val);
             r = head;
         } else {
-            p = new ListNode();
-            p->val = val;
+            p = new ListNode(val);
             r->next = p;
             r = r->next;
-
         }
     }
     return head;
