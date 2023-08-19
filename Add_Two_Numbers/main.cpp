@@ -40,6 +40,7 @@ ListNode* createLinkedListR(vector<int> arr) {
     return head;
 }
 
+// 2. 两数相加
 int main(){
     Solution solution;
     traverseLinkedList(solution.addTwoNumbers(createLinkedListR({ 8,9,9 }), createLinkedListR({ 2 })));

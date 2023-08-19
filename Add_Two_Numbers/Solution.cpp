@@ -6,17 +6,17 @@ ListNode* Solution::addTwoNumbers(ListNode* l1, ListNode* l2) {
 
 // carry 表示低位是否向高位进位
 ListNode* Solution::add(ListNode* l1, ListNode* l2, bool carry) {
-    // sum为两个链表的对应两位及借位之和
+    // sum为两个链表的对应的两位加借位的和
     int sum = 0;
     // 先将进位加到和中
     if (carry) {
         sum = sum + 1;
     }
     if (l1 == nullptr && l2 == nullptr) {
-        // l1、l2均为null时，且无低位的进位时，结束运算
         // l1、l2均为null时，且有低位的进位时，说明本位为结果的最高位
-        // 如998+2=1000，结果1000的最高位为1，此时sum为1
+        // 如998+2=1000（自然顺序），当前位的值即sum为1，其必然小于10
         if (!carry) {
+            // 只有当l1、l2均为null时，且无低位的进位时，结束运算
             return nullptr;
         }
     }
